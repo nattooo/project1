@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  header {
+    position: fixed;
+    border: 1px solid yellowgreen;
+    background-color: rgb(247, 221, 105);
+    opacity: 0.9;
+    top:0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+    margin-left:50px;
+}
+
+.logo {
+    width: 124px;
+    height: 32px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-list li {
+    float: right;
+    list-style: none;
+    padding-left: 10px;
+    transition: all 0.5s;
+    cursor: default;
+    color:green;
+    text-decoration: none;
+}
+
+.header-list li:hover {
+    color:rgb(245, 211, 22);
+}
+
+.header-list li:active {
+    color:yellowgreen;
+}
+
+
+.top-wrapper {
+	padding: 180px 30px 330px 20px;
+    text-align: center;
+}
+
+.top-wrapper img {
+	float: left;
+}
+
+.blue-dot {
+	width: 17%;
+	height: 17%;
+}
+
+.yellow-dot {
+	width: 13%;
+	height: 13%;
+	margin-top: 80px;
+}
+
+.top-title {
+	float: left;
+	width: 70%;
+}
+
+.top-wrapper h1 {
+	font-size: 55px;
+}
+
+.top-wrapper h2 {
+	font-size: 30px;
+}
+
+.top-wrapper span {
+	color: orange;
+}
+
+.lesson-container {
+    height: 415px;
+    padding: 0 100px 0 110px;
+}
+
+.lessons img {
+    width: 220px;
+    height: 220px;
+}
+
+.lesson {
+    float: left;
+    margin-right:90px;
+    text-align: center;
+    height: 400px;
+    width: 220px;
+}
+
+.section-title {
+    border-bottom: solid 2px rgb(230, 221, 221);
+    margin-left: 20px;
+}
+.contact-form {
+    margin-top: 60px;
+    text-align: center;
+}
+
+input, textarea {
+    width:240px;
+    margin-top:15px;
+    margin-bottom:30px;
+    padding:20px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color:#dee7ec;
+    color:#889eab;
+    border-radius: 30px;
+}
+
+.footer-left {
+    float: left;
+    font-size: 22px;
+}
+
+.footer-right {
+    float: right;
+    padding-right:40px;
+}
+
+.footer-list li {
+    list-style:none;
+    padding-bottom:10px;
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+footer {
+    height:150px;
+    background-color:rgb(253, 227, 78);
+    color:whitesmoke;
+    padding: 30px;
+    cursor: default;
+}
+
+.footer.list li:hover {
+    color:green;
+}

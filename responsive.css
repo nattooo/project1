@@ -1,0 +1,87 @@
+@media (max-width:1000px) {
+    .container {
+        width:100%;
+    }
+    header {
+        width: 100%
+    }
+    .top-wrapper {
+        width:100%;
+    }
+    .lesson-wrapper {
+        width: 100%;
+    }
+    .contact-wrapper {
+        width: 100%;
+    }
+    footer {
+        width:100%;
+    }
+    .lesson {
+        width: 100%;
+    }
+    .top-wrapper h1 {
+		font-size: 40px;
+	}
+
+	.top-wrapper h2 {
+		font-size: 20px;
+    }
+    .lesson img {
+		width: 140px;
+		height: 140px;
+	}
+
+	.lesson p {
+		font-size: 10px;
+    }
+}
+
+@media (max-width:670px) {
+    .container {
+        width: 100%;
+    }
+    header {
+        width: 100%
+    }
+    .top-wrapper {
+        width:100%;
+    }
+    .lesson-wrapper {
+        width:100%;
+    }
+    .contact-wrapper {
+        width: 100%;
+    }
+    footer {
+        width: 100%
+    }
+    .lesson {
+        width: 100%;
+    }
+    .top-wrapper h1 {
+		font-size: 30px;
+	}
+	.top-wrapper h2 {
+		font-size: 15px;
+    }
+    .lesson img {
+		width: 80px;
+		height: 80px;
+	}
+	.lesson h3 {
+		font-size: 10px;
+	}
+	.lesson p {
+        font-size: 8px;
+    }
+    input, text-area {
+        width: 70%;
+    }
+    .contact-form p {
+        font-size: 10px;
+    }
+    .contact-submit {
+        font-size: 10px;
+    }
+}
